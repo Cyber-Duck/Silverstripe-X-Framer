@@ -10,12 +10,12 @@ Add the following to your composer.json file
 ```json
 {  
     "require": {  
-        "Cyber-Duck/silverstripe-x-framer": "1.0.*"
+        "Cyber-Duck/Silverstripe-X-Framer": "1.0.*"
     },  
     "repositories": [  
         {  
             "type": "vcs",  
-            "url": "https://github.com/Cyber-Duck/silverstripe-x-framer"  
+            "url": "https://github.com/Cyber-Duck/Silverstripe-X-Framer"  
         }  
     ]  
 }

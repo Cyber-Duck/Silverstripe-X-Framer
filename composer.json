@@ -1,8 +1,8 @@
 {
-    "name": "Cyber-Duck/silverstripe-x-framer",
+    "name": "Cyber-Duck/Silverstripe-X-Framer",
     "description": "Set an X-Frame header based on user",
     "type": "silverstripe-module",
-    "homepage": "http://github.com/Cyber-Duck/silverstripe-x-framer",
+    "homepage": "http://github.com/Cyber-Duck/Silverstripe-X-Framer",
     "keywords": ["silverstripe","x-frame"],
     "license": "MIT",
     "authors": [
@@ -12,7 +12,7 @@
         }
     ],
     "support": {
-        "issues": "http://github.com/Cyber-Duck/silverstripe-x-framer/issues"
+        "issues": "http://github.com/Cyber-Duck/Silverstripe-X-Framer/issues"
     },
     "minimum-stability": "dev",
     "require": {
