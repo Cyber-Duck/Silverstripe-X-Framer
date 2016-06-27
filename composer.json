@@ -1,6 +1,6 @@
 {
     "name": "Cyber-Duck/Silverstripe-X-Framer",
-    "description": "Set an X-Frame header based on user",
+    "description": "Set an X-Frame header based on user IP",
     "type": "silverstripe-module",
     "homepage": "http://github.com/Cyber-Duck/Silverstripe-X-Framer",
     "keywords": ["silverstripe","x-frame"],
