@@ -1,6 +1,11 @@
 ---
 Name: xframer
+After:
+  - 'framework/*'
+  - 'cms/*'
 ---
-ips:
-  '127.0.0.1',
-  '::1'
+# YAML configuration for Xframer
+Xframer:
+  ips:
+    - '127.0.0.1'
+    - '::1'
