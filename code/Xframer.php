@@ -8,10 +8,25 @@
  **/
 class Xframer {
 
+    /**
+     * @since version 1.0.0
+     *
+     * @static string $ip The current user IP address
+     **/
     private static $ip;
 
+    /**
+     * @since version 1.0.0
+     *
+     * @static array $excluded An array of IP addresses to exclude from returning X-Frame header
+     **/
     private static $excluded = array();
-
+    
+    /**
+     * @since version 1.0.0
+     *
+     * @static array $headers An array of server headers to check for an IP
+     **/
     private static $headers = array(
         'HTTP_CLIENT_IP', 
         'HTTP_X_FORWARDED_FOR', 
@@ -22,10 +37,20 @@ class Xframer {
         'REMOTE_ADDR'
     );
 
+    /**
+     * Run the plugin by setting and checking the current user IP and setting
+     * an X-Frame header if required
+     *
+     * @since version 1.0.0
+     *
+     * @param string $header X-Frame option DENY | SAMEORIGIN
+     *
+     * @return void
+     **/
     public static function init($header = 'SAMEORIGIN')
     {
-        self::getUserIP();
-        self::getExcludedIPs();
+        self::setUserIP();
+        self::setExcludedIPs();
 
         if(!in_array(self::$ip, self::$excluded))
         {
@@ -36,7 +61,14 @@ class Xframer {
         }
     }
 
-    private static function getUserIP()
+    /**
+     * Set the current user IP
+     *
+     * @since version 1.0.0
+     *
+     * @return void
+     **/
+    private static function setUserIP()
     {
         $ips = [];
 
@@ -54,7 +86,14 @@ class Xframer {
         }
     }
 
-    private static function getExcludedIPs()
+    /**
+     * Set an array of IPs to exclude X-Frame headers from
+     *
+     * @since version 1.0.0
+     *
+     * @return void
+     **/
+    private static function setExcludedIPs()
     {
         self::$excluded = Config::inst()->get('Xframer','ips');
     }
