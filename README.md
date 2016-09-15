@@ -11,13 +11,7 @@ Add the following to your composer.json file
 {  
     "require": {  
         "Cyber-Duck/Silverstripe-X-Framer": "1.0.*"
-    },  
-    "repositories": [  
-        {  
-            "type": "vcs",  
-            "url": "https://github.com/Cyber-Duck/Silverstripe-X-Framer"  
-        }  
-    ]  
+    }
 }
 ```
 
