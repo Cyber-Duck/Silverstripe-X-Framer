@@ -18,7 +18,7 @@
         "issues": "http://github.com/cyber-duck/silverstripe-x-framer/issues"
     },
     "extra": {
-        "installer-name": "xframer"
+        "installer-name": "x-framer"
     },
     "prefer-stable": true
 }
