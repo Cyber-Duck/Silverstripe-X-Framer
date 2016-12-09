@@ -20,5 +20,10 @@
     "extra": {
         "installer-name": "x-framer"
     },
+    "require": {
+        "php": ">=5.4.0",
+        "composer/installers": "*",
+        "silverstripe/framework": ">=3.0.1"
+    },
     "prefer-stable": true
 }
