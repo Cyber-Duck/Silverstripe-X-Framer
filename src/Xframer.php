@@ -1,4 +1,10 @@
 <?php
+
+namespace CyberDuck\Xframer;
+
+use SilverStripe\Control\Controller;
+use SilverStripe\Core\Config\Config;
+
 /**
  * Silverstripe X-Framer
  *
@@ -94,6 +100,6 @@ class Xframer
      **/
     private static function setExcludedIPs()
     {
-        self::$excluded = Config::inst()->get('Xframer','ips');
+        self::$excluded = Config::inst()->get('CyberDuck\Xframer\Xframer','ips');
     }
 }
