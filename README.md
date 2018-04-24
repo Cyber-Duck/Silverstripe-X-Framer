@@ -1,7 +1,7 @@
 # SilverStripe X-Framer
 
 [![Latest Stable Version](https://poser.pugx.org/cyber-duck/silverstripe-x-framer/v/stable)](https://packagist.org/packages/cyber-duck/silverstripe-x-framer)
-[![Latest Unstable Version](https://poser.pugx.org/cyber-duck/silverstripe-block-page/v/unstable)](https://packagist.org/packages/cyber-duck/silverstripe-block-page)
+[![Latest Unstable Version](https://poser.pugx.org/cyber-duck/silverstripe-x-framer/v/unstable)](https://packagist.org/packages/cyber-duck/silverstripe-x-framer)
 [![Total Downloads](https://poser.pugx.org/cyber-duck/silverstripe-x-framer/downloads)](https://packagist.org/packages/cyber-duck/silverstripe-x-framer)
 [![License](https://poser.pugx.org/cyber-duck/silverstripe-x-framer/license)](https://packagist.org/packages/cyber-duck/silverstripe-x-framer)
 
