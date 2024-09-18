@@ -1,4 +1,8 @@
 <?php
+
+use SilverStripe\Control\Controller;
+use SilverStripe\Core\Config\Config;
+
 /**
  * Silverstripe X-Framer
  *
@@ -25,19 +29,19 @@ class Xframer
      * @static array $excluded
      **/
     private static $excluded = [];
-    
+
     /**
      * @since version 1.0.0
      *
      * @static array $headers An array of server headers to check for an IP
      **/
     private static $headers = [
-        'HTTP_CLIENT_IP', 
-        'HTTP_X_FORWARDED_FOR', 
-        'HTTP_X_FORWARDED', 
-        'HTTP_X_CLUSTER_CLIENT_IP', 
-        'HTTP_FORWARDED_FOR', 
-        'HTTP_FORWARDED', 
+        'HTTP_CLIENT_IP',
+        'HTTP_X_FORWARDED_FOR',
+        'HTTP_X_FORWARDED',
+        'HTTP_X_CLUSTER_CLIENT_IP',
+        'HTTP_FORWARDED_FOR',
+        'HTTP_FORWARDED',
         'REMOTE_ADDR'
     ];
 
