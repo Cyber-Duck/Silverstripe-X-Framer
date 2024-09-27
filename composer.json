@@ -23,7 +23,7 @@
     "require": {
         "php": ">=8.0",
         "composer/installers": "^2.0",
-        "silverstripe/framework": "*"
+        "silverstripe/framework": ">=4.0"
     },
     "prefer-stable": true
 }
