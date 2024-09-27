@@ -21,8 +21,8 @@
         "installer-name": "x-framer"
     },
     "require": {
-        "php": ">=5.4.0",
-        "composer/installers": "*",
+        "php": ">=8.0",
+        "composer/installers": "^2.0",
         "silverstripe/framework": "*"
     },
     "prefer-stable": true
